@@ -1,0 +1,16 @@
+[package]
+name = "serve"
+authors = ["Reboot-Codes <git@reboot-codes.com>"]
+description = "A fast and simple web server."
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+env_logger = "0.9.0"
+json_logger = "0.1.0"
+log = "0.4.17"
+ansi_term = "0.12.1"
+clap = { version = "3.1.6", features = ["derive", "cargo"] }
+tokio = { version = "1", features = ["full"] }
+warp = "0.3.2"
+notify = "4.0.17"
